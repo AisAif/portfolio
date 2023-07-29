@@ -55,9 +55,9 @@ const toggleValue = reactive([
             </button>
             <p class="hidden sm:flex">dark</p>
         </div>
-        <div @click="navMobileToggle = !navMobileToggle" class="z-50 top-0 absolute left-[143px] sm:hidden h-screen flex items-center">
-            <div class="bg-accent-dark dark:bg-accent-light text-slate-200 flex justify-center items-center p-2 rounded-r-full transition-all cursor-pointer">
-                <span class="material-symbols-outlined text-xl transition-all" :class="navMobileToggle ? 'rotate-180' : ''">arrow_forward_ios</span>
+        <div @click="navMobileToggle = !navMobileToggle" class="z-50 top-0 absolute left-[145px] sm:hidden flex items-center" :class="navMobileToggle && 'h-full w-screen top-[-2px] left-[144px]'">
+            <div class="bg-accent-dark dark:bg-accent-light text-slate-200 flex justify-center items-center m-2 p-2 rounded-md transition-all cursor-pointer">
+                <span class="material-symbols-outlined text-3xl transition-all" :class="navMobileToggle && 'rotate-180'">{{ navMobileToggle ? "close" : "menu" }}</span>
             </div>
         </div>
     </div>

@@ -25,7 +25,7 @@ const projectIdOpen = ref()
 
 <template>
     <div>
-        <div class="md:h-[26rem] md:px-6 grid grid-cols-1 sm:grid-cols-2 gap-3 justify-items-center overflow-y-scroll">
+        <div class="md:h-[26rem] md:px-6 grid grid-cols-1 sm:grid-cols-2 gap-3 justify-items-center overflow-y-auto">
             <div class="flex flex-col w-fit shadow-xl dark:border-2 dark:border-accent-light" v-for="project in projects" :key="project.id">
                 <div class="w-full relative group cursor-pointer">
                     <img :src="project.img" class="w-full">

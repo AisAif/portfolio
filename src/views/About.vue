@@ -8,7 +8,7 @@ const about3 = ref(false)
 </script>
 <template>
     <MainLayout>
-        <div class="h-full md:px-6 flex flex-col items-center overflow-y-scroll">
+        <div class="h-full md:px-6 flex flex-col items-center overflow-y-auto">
             <div class="text-accent-dark dark:text-accent-light flex flex-col justify-center items-center gap-2">
                 <div @click="about1 = !about1" class="flex flex-col justify-center items-center cursor-pointer">
                     <h1 class="text-xl font-semibold">Biografi</h1>
