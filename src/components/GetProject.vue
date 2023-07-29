@@ -25,11 +25,11 @@ const projectIdOpen = ref()
 
 <template>
     <div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 justify-items-center">
+        <div class="md:h-[26rem] md:px-6 grid grid-cols-1 sm:grid-cols-2 gap-3 justify-items-center overflow-y-scroll">
             <div class="flex flex-col w-fit shadow-xl dark:border-2 dark:border-accent-light" v-for="project in projects" :key="project.id">
                 <div class="w-full relative group cursor-pointer">
                     <img :src="project.img" class="w-full">
-                    <div  @click="openProject(project.id)" class="absolute group-hover:backdrop-brightness-50 w-full h-full flex justify-center items-center text-sm font-roboto font-bold left-0 top-0 transition-all duration-300">
+                    <div  @click="openProject(project.id)" class="absolute group-hover:backdrop-brightness-50 w-full h-full flex justify-center items-center text-sm font-roboto font-bold left-0 top-0 transition-all duration-100">
                         <p class="w-fit hidden group-hover:flex border border-slate-200 text-slate-200 rounded px-2">Click for more information.</p>
                     </div>
                 </div>

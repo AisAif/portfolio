@@ -1,17 +1,25 @@
 [{
         "id": 1,
-        "name": "Kuberi.id",
+        "name": "ByShare - Laravel App",
         "short_description": "Platform berbagi kepada yang membutuhkan di sekitar kita",
-        "description": "Kuberi.id adalah Platform dimana anda bisa membagikan barang anda yang layak dehingga bisa digunakan oleh orang yang membutuhkan. Platform ini juga mengusung Zero Waste sebagai wujud peduli lingkungan, dengan konsep membagikan apa yang kita punya sehingga bisa dimanfaatkan orang lain.",
-        "img": "/img/kuberi-id.png",
-        "link": "https://kuberi.santriacademy.com"
+        "description": "ByShare adalah gerakan sosial di platform digital yang bertujuan untuk mengajak masyarakat luas untuk berbagi kebaikan kepada orang-orang terdekat yang membutuhkan.",
+        "img": "/img/byshare.png",
+        "link": "https://byshare.web.id"
     },
     {
         "id": 2,
-        "name": "MulaiTani",
+        "name": "ZeroUp - Vue App",
         "short_description": "Platform edukasi untuk pemanfaatan tanah non produktif",
-        "description": "MulaiTani merupakan platform edukasi untuk pemanfaatan tanah non produktif disekitar kita. Dalam platfrom ini masyarakat bisa belajar memulai bertani dengan tempat yang terbatas. Platform ini juga memberikan bimbingan dan rekomendasi pertanian bagi pelanggan pemula agar bisa belajar bertani dengan benar. Kita juga menyediakan semua peralatan dan bibit yang dibutuhkan untuk memulai belajar bertani dengan metode hidroponik dan boxtani.",
-        "img": "/img/mulai-tani.png",
-        "link": "https://mulaitani.archonteam.my.id"
+        "description": "ZeroUp merupakan platform edukasi untuk pemanfaatan tanah non produktif disekitar kita. Dalam platfrom ini masyarakat bisa belajar memulai bertani dengan tempat yang terbatas.",
+        "img": "/img/zeroup.png",
+        "link": "https://zeroup.biz.id"
+    },
+    {
+        "id": 3,
+        "name": "DIKANTIN - PHP Native",
+        "short_description": "Aplikasi pembelian makanan dan pengelolaan kantin",
+        "description": "DIKANTIN merupakan aplikasi web berbasis php yang memudahkan untuk siswa/mahasiswa melakukan pembelian makanan atau minuman di kantin.",
+        "img": "/img/dikantin.png",
+        "link": "https://dikantin.kastudio.biz.id"
     }
 ]

@@ -50,7 +50,7 @@ function showFirstMethod(){
                         <h3 class="text-base md:text-xl font-semibold underline underline-offset-4 tracking-wider">IT ENTHUSIAST</h3>
                     </div>
                     <div class="profile mt-6">
-                        <p class="text-justify indent-8 md:indent-16">Saya merupakan seorang mahasiswa dari Program Studi Teknologi Informasi UIN Walisongo Semarang. Untuk saat ini, saya masih mendalami pemrograman di bidang Web Development pada framework Laravel (untuk Back End) dan Vue Js (untuk Front End). Saya juga memahami beberapa bahasa pemrograman seperti JavaScript, PHP, dan Python.</p>
+                        <p class="text-justify indent-8 md:indent-16">Saya merupakan seorang mahasiswa dari Program Studi Teknologi Informasi UIN Walisongo Semarang. Saat ini saya masih mendalami pemrograman di bidang Web Development seperti Laravel, Node JS, Golang (untuk Back End) dan Vue Js (untuk Front End). Saya juga memahami beberapa bahasa pemrograman seperti JavaScript, PHP, Golang, dan Python.</p>
                     </div>
                     <div class="button flex w-32 h-12 justify-center items-center">
                         <button @click="showFirstMethod" class="bg-accent-dark hover:bg-accent-light dark:bg-accent-light dark:hover:bg-accent-dark transition-all text-white p-2 hover:p-3 text-sm hover:text-base font-bold rounded-md">
