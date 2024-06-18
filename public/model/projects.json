@@ -1,25 +1,58 @@
-[{
-        "id": 1,
-        "name": "ByShare - Laravel App",
-        "short_description": "Platform berbagi kepada yang membutuhkan di sekitar kita",
-        "description": "ByShare adalah gerakan sosial di platform digital yang bertujuan untuk mengajak masyarakat luas untuk berbagi kebaikan kepada orang-orang terdekat yang membutuhkan.",
-        "img": "/img/byshare.png",
-        "link": "https://byshare.web.id"
-    },
-    {
-        "id": 2,
-        "name": "ZeroUp - Vue App",
-        "short_description": "Platform edukasi untuk pemanfaatan tanah non produktif",
-        "description": "ZeroUp merupakan platform edukasi untuk pemanfaatan tanah non produktif disekitar kita. Dalam platfrom ini masyarakat bisa belajar memulai bertani dengan tempat yang terbatas.",
-        "img": "/img/zeroup.png",
-        "link": "https://zeroup.biz.id"
-    },
-    {
-        "id": 3,
-        "name": "DIKANTIN - PHP Native",
-        "short_description": "Aplikasi pembelian makanan dan pengelolaan kantin",
-        "description": "DIKANTIN merupakan aplikasi web berbasis php yang memudahkan untuk siswa/mahasiswa melakukan pembelian makanan atau minuman di kantin.",
-        "img": "/img/dikantin.png",
-        "link": "https://dikantin.kastudio.biz.id"
-    }
+[
+  {
+    "id": 1,
+    "name": "ByShare - Laravel Web",
+    "short_description": "Platform berbagi kepada yang membutuhkan di sekitar kita",
+    "description": "ByShare adalah gerakan sosial di platform digital yang bertujuan untuk mengajak masyarakat luas untuk berbagi kebaikan kepada orang-orang terdekat yang membutuhkan.",
+    "img": "/img/byshare.png",
+    "link": "https://byshare.site"
+  },
+  {
+    "id": 2,
+    "name": "ZeroUp - Vue JS",
+    "short_description": "Platform edukasi untuk pemanfaatan tanah non produktif",
+    "description": "ZeroUp merupakan platform edukasi untuk pemanfaatan tanah non produktif disekitar kita. Dalam platfrom ini masyarakat bisa belajar memulai bertani dengan tempat yang terbatas.",
+    "img": "/img/zeroup.png",
+    "link": "https://zeroup.byshare.site"
+  },
+  {
+    "id": 3,
+    "name": "DIKANTIN - PHP Native",
+    "short_description": "Aplikasi pembelian makanan dan pengelolaan kantin",
+    "description": "DIKANTIN merupakan aplikasi web berbasis php yang memudahkan untuk siswa/mahasiswa melakukan pembelian makanan atau minuman di kantin.",
+    "img": "/img/dikantin.png",
+    "link": "https://dikantin.kastudio.biz.id"
+  },
+  {
+    "id": 4,
+    "name": "Contacts Manager - React Native",
+    "short_description": "Aplikasi pengelolaan data kontak",
+    "description": "Contacts Manager merupakan aplikasi mobile yang memudahkan para pengelola untuk mengelola data kontak mereka. Aplikasi ini dapat diakses secara online.",
+    "img": "/img/contacts-manager.jpg",
+    "link": "https://github.com/AisAif/contacts-manager-react-native"
+  },
+  {
+    "id": 5,
+    "name": "SIPZIS - Rest API with Laravel",
+    "short_description": "Aplikasi pengelolaan infaq/sedekah dan zakat untuk berbagai instansi",
+    "description": "SIPZIS merupakan aplikasi yang memudahkan mengelola infaq/sedekah dan zakat. Selain itu, masyarakat dapat dengan mudah melakukan donasi kepada instansi yang ada melalui aplikasi ini.",
+    "img": "/img/sipzis.png",
+    "link": "https://sipzis.com"
+  },
+  {
+    "id": 6,
+    "name": "ClassMath - Rest API with Node JS",
+    "short_description": "Aplikasi yang menyediakan materi dan soal mengenai matematika",
+    "description": "ClassMath merupakan aplikasi android yang menyediakan materi dan soal mengenai matematika. Aplikasi ini dapat diakses secara online.",
+    "img": "/img/class-math.png",
+    "link": "https://github.com/AisAif/classmath-restful-api"
+  },
+  {
+    "id": 7,
+    "name": "FlatPee WhatsApp Bot - Node JS",
+    "short_description": "Bot WhatsApp yang terintegrasi dengan AI",
+    "description": "FlatPee WhatsApp Bot merupakan bot WhatsApp yang terintegrasi dengan Artificial Intelligence. Anda hanya perlu mengirimkan pesan ke bot WhatsApp ini untuk mendapatkan jawabannya.",
+    "img": "/img/flatpee-bot.jpg",
+    "link": "https://github.com/AisAif/flatpee-whatsapp-bot"
+  }
 ]

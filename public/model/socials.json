@@ -1,36 +1,30 @@
-[{
-        "id": 1,
-        "description": "Yok bermain gim sambil ngobrol bersama saya",
-        "img": "/img/discord.png",
-        "value": "FlatPee#0356",
-        "link": null
-    },
-    {
-        "id": 2,
-        "description": "Mau lelucon? Saya sering share post orang di sini",
-        "img": "/img/facebook.png",
-        "value": "Abdullah Isbarul Fahmi",
-        "link": "https://facebook.com/abdullahisbarulfahmi"
-    },
-    {
-        "id": 3,
-        "description": "Follow Instagram saya",
-        "img": "/img/instagram.png",
-        "value": "ais_aif",
-        "link": "https://instagram.com/ais_aif"
-    },
-    {
-        "id": 4,
-        "description": "Ingin bekerja sama? Email ke sini",
-        "img": "/img/gmail.png",
-        "value": "isbahrulfahni@gmail.com",
-        "link": null
-    },
-    {
-        "id": 5,
-        "description": "Kirim pesan atau unek-unek",
-        "img": "/img/whatsapp.png",
-        "value": "088988638935",
-        "link": "https://whatsapp.me/088988638935"
-    }
+[
+  {
+    "id": 1,
+    "description": "Yok bermain gim sambil ngobrol bersama saya",
+    "img": "/img/discord.png",
+    "value": "FlatPee#0356",
+    "link": null
+  },
+  {
+    "id": 2,
+    "description": "Mau lelucon? Saya sering share post orang di sini",
+    "img": "/img/facebook.png",
+    "value": "Abdullah Isbarul Fahmi",
+    "link": "https://facebook.com/abdullahisbarulfahmi"
+  },
+  {
+    "id": 3,
+    "description": "Follow Instagram saya",
+    "img": "/img/instagram.png",
+    "value": "ais_aif",
+    "link": "https://instagram.com/ais_aif"
+  },
+  {
+    "id": 4,
+    "description": "Ingin bekerja sama? Email ke sini",
+    "img": "/img/gmail.png",
+    "value": "isbahrulfahni@gmail.com",
+    "link": null
+  }
 ]
