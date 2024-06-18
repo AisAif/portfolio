@@ -8,7 +8,7 @@
   },
   {
     "id": 2,
-    "description": "Mau lelucon? Saya sering share post orang di sini",
+    "description": "Tertarik dengan lelucon? Saya sering share post orang di sini",
     "img": "/img/facebook.png",
     "value": "Abdullah Isbarul Fahmi",
     "link": "https://facebook.com/abdullahisbarulfahmi"
@@ -24,7 +24,14 @@
     "id": 4,
     "description": "Ingin bekerja sama? Email ke sini",
     "img": "/img/gmail.png",
-    "value": "isbahrulfahni@gmail.com",
+    "value": "iam@ais-aif.my.id",
     "link": null
+  },
+  {
+    "id": 5,
+    "description": "Temui proyek lain saya di sini",
+    "img": "/img/github.png",
+    "value": "AisAif",
+    "link": "https://github.com/AisAif"
   }
 ]
