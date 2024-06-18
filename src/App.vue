@@ -21,7 +21,7 @@ const darkToggleMethod = () => {
 
 <template>
   <div :class="darkToggle ? 'dark' : ''">
-    <div class="font-poppins from-primary bg-gradient-to-b to-secondary dark:from-slate-900 dark:bg-gradient-to-b dark:to-slate-800 transition-all ease-in-out duration-500 overflow-hidden">
+    <div class="font-poppins from-primary bg-gradient-to-b to-secondary dark:from-slate-900 dark:bg-gradient-to-b dark:to-slate-800 transition-all ease-in-out duration-500 overflow-hidden min-h-screen">
       <Navbar @dark-toggle-emit="darkToggleMethod" :dark-toggle-props="darkToggle" />
       <RouterView v-slot="{ Component }">
         <transition name="route" mode="out-in">
