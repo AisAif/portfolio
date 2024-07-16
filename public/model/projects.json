@@ -54,5 +54,13 @@
     "description": "FlatPee WhatsApp Bot merupakan bot WhatsApp yang terintegrasi dengan Artificial Intelligence. Anda hanya perlu mengirimkan pesan ke bot WhatsApp ini untuk mendapatkan jawabannya.",
     "img": "/img/flatpee-bot.jpg",
     "link": "https://github.com/AisAif/flatpee-whatsapp-bot"
+  },
+  {
+    "id": 8,
+    "name": "Recipe Management - Rest API with Golang",
+    "short_description": "Aplikasi manajemen resep untuk berbagai pengguna",
+    "description": "Recipe Management merupakan aplikasi yang memudahkan pengguna untuk mengelola dan meng-expose resep mereka. Aplikasi ini dapat diakses secara online.",
+    "img": "/img/recipe-management.png",
+    "link": "https://github.com/AisAif/recipe-management-rest-api"
   }
 ]
