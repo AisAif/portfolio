@@ -7,7 +7,6 @@ function useDarkMode() {
   const updateDarkMode = () => {
       value.value = value.value === "light" ? "dark" : "light";
       localStorage.setItem("theme", value.value);
-      console.log(value);
   };
 
   return { value, updateDarkMode };

@@ -1,5 +1,4 @@
 <script setup>
-import MainLayout from "../components/MainLayout.vue";
 import { ref } from "vue";
 
 const showFirst = ref(true);

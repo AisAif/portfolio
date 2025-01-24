@@ -1,5 +1,4 @@
 <script setup>
-import MainLayout from "../components/MainLayout.vue";
 import GetSocial from "../components/GetSocial.vue";
 import { Suspense } from "vue";
 </script>

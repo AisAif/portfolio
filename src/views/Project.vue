@@ -1,5 +1,4 @@
 <script setup>
-import MainLayout from "../components/MainLayout.vue";
 import GetProject from "../components/GetProject.vue";
 import { reactive, Suspense } from "vue";
 </script>

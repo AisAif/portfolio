@@ -5,7 +5,7 @@ import useDarkMode from "../hooks/dark-mode";
 
 const { value: theme, updateDarkMode } = useDarkMode;
 
-const navMobileToggle = ref(false)
+const navMobileToggle = ref(false);
 
 const toggleValue = reactive([
   {
@@ -37,8 +37,20 @@ const toggleValue = reactive([
 </script>
 
 <template>
+  <button
+    @click="navMobileToggle = true"
+    class="sm:hidden fixed z-50 bottom-0 right-0 bg-accent-dark dark:bg-accent-light text-slate-200 flex justify-center items-center m-2 p-2 rounded-md transition-all"
+    :class="navMobileToggle && 'opacity-0 translate-x-[100px]'"
+  >
+    <span class="material-symbols-outlined text-3xl">menu</span>
+  </button>
   <div
-    class="fixed sm:relative left-0 bg-accent-dark dark:bg-accent-light sm:bg-transparent sm:dark:bg-transparent text-slate-200 w-36 sm:w-full h-screen sm:h-fit flex flex-col sm:flex-row gap-10 sm:gap-0 justify-between items-center py-10 sm:py-4 sm:px-10 font-jost sm:text-accent-dark sm:dark:text-accent-light z-50 rounded-r-sm sm:rounded-none transition-all duration-300 sm:translate-x-0 sm:translate-y-0"
+    v-if="navMobileToggle"
+    @click="navMobileToggle = false"
+    class="sm:hidden fixed z-[49] bottom-0 right-0 w-screen h-screen bg-black/20"
+  />
+  <div
+    class="sm:relative fixed left-0 bg-accent-dark dark:bg-accent-light sm:bg-transparent sm:dark:bg-transparent text-slate-200 w-36 sm:w-full h-screen sm:h-fit flex flex-col sm:flex-row gap-10 sm:gap-0 justify-between items-center py-10 sm:py-4 sm:px-10 font-jost sm:text-accent-dark sm:dark:text-accent-light z-50 rounded-r-sm sm:rounded-none transition-all duration-300 sm:translate-x-0 sm:translate-y-0"
     :class="navMobileToggle ? 'translate-x-0' : '-translate-x-36'"
   >
     <RouterLink
@@ -82,18 +94,6 @@ const toggleValue = reactive([
         >
       </button>
       <p class="hidden sm:flex">dark</p>
-    </div>
-    <div
-      @click="navMobileToggle = !navMobileToggle"
-      class="z-50 fixed bottom-0 sm:hidden flex"
-      :class="navMobileToggle ? 'h-full top-[-2px] left-[144px] w-screen': 'left-[506px]'"
-    >
-      <div
-        class="bg-accent-dark dark:bg-accent-light text-slate-200 flex justify-center items-center m-2 p-2 rounded-md transition-all cursor-pointer w-full"
-        :class="navMobileToggle && 'hidden'"
-      >
-        <span class="material-symbols-outlined text-3xl">menu</span>
-      </div>
     </div>
   </div>
 </template>

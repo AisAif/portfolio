@@ -1,7 +1,6 @@
 <script setup>
 import GetTimeline from "../components/GetTimeline.vue";
-import MainLayout from "../components/MainLayout.vue";
-import { ref, Suspense } from "vue";
+import { Suspense } from "vue";
 </script>
 <template>
   <Suspense>
