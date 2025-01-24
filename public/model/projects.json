@@ -2,64 +2,64 @@
   {
     "id": 1,
     "name": "ByShare - Laravel Web",
-    "short_description": "Platform berbagi kepada yang membutuhkan di sekitar kita",
-    "description": "ByShare adalah gerakan sosial di platform digital yang bertujuan untuk mengajak masyarakat luas untuk berbagi kebaikan kepada orang-orang terdekat yang membutuhkan.",
+    "short_description": "A sharing platform for those in need around us",
+    "description": "ByShare is a social movement on a digital platform designed to encourage the community to share kindness with those in need nearby.",
     "img": "/img/byshare.png",
     "link": "https://byshare.site"
   },
   {
     "id": 2,
     "name": "ZeroUp - Vue JS",
-    "short_description": "Platform edukasi untuk pemanfaatan tanah non produktif",
-    "description": "ZeroUp merupakan platform edukasi untuk pemanfaatan tanah non produktif disekitar kita. Dalam platfrom ini masyarakat bisa belajar memulai bertani dengan tempat yang terbatas.",
+    "short_description": "An educational platform for utilizing non-productive land",
+    "description": "ZeroUp is an educational platform focused on teaching people how to utilize non-productive land around them. Users can learn how to start farming even in limited spaces.",
     "img": "/img/zeroup.png",
     "link": "https://zeroup.byshare.site"
   },
   {
     "id": 3,
     "name": "DIKANTIN - PHP Native",
-    "short_description": "Aplikasi pembelian makanan dan pengelolaan kantin",
-    "description": "DIKANTIN merupakan aplikasi web berbasis php yang memudahkan untuk siswa/mahasiswa melakukan pembelian makanan atau minuman di kantin.",
+    "short_description": "An application for food purchasing and canteen management",
+    "description": "DIKANTIN is a PHP-based web application that simplifies the process for students to purchase food or drinks in the canteen.",
     "img": "/img/dikantin.png",
-    "link": "https://dikantin.kastudio.biz.id"
+    "link": "https://github.com/AisAif/dikantin-php-native"
   },
   {
     "id": 4,
     "name": "Contacts Manager - React Native",
-    "short_description": "Aplikasi pengelolaan data kontak",
-    "description": "Contacts Manager merupakan aplikasi mobile yang memudahkan para pengelola untuk mengelola data kontak mereka. Aplikasi ini dapat diakses secara online.",
+    "short_description": "A contact data management application",
+    "description": "Contacts Manager is a mobile application that allows managers to efficiently manage their contact data. The application can be accessed online.",
     "img": "/img/contacts-manager.jpg",
     "link": "https://github.com/AisAif/contacts-manager-react-native"
   },
   {
     "id": 5,
     "name": "SIPZIS - Rest API with Laravel",
-    "short_description": "Aplikasi pengelolaan infaq/sedekah dan zakat untuk berbagai instansi",
-    "description": "SIPZIS merupakan aplikasi yang memudahkan mengelola infaq/sedekah dan zakat. Selain itu, masyarakat dapat dengan mudah melakukan donasi kepada instansi yang ada melalui aplikasi ini.",
+    "short_description": "An application for managing donations, alms, and zakat for institutions",
+    "description": "SIPZIS is an application designed to simplify the management of donations, alms, and zakat. Additionally, the public can easily donate to institutions through this platform.",
     "img": "/img/sipzis.png",
     "link": "https://sipzis.com"
   },
   {
     "id": 6,
     "name": "ClassMath - Rest API with Node JS",
-    "short_description": "Aplikasi yang menyediakan materi dan soal mengenai matematika",
-    "description": "ClassMath merupakan aplikasi android yang menyediakan materi dan soal mengenai matematika. Aplikasi ini dapat diakses secara online.",
+    "short_description": "An application offering materials and questions on mathematics",
+    "description": "ClassMath is an Android application providing educational materials and questions about mathematics. This application is accessible online.",
     "img": "/img/class-math.png",
     "link": "https://github.com/AisAif/classmath-restful-api"
   },
   {
     "id": 7,
     "name": "FlatPee WhatsApp Bot - Node JS",
-    "short_description": "Bot WhatsApp yang terintegrasi dengan AI",
-    "description": "FlatPee WhatsApp Bot merupakan bot WhatsApp yang terintegrasi dengan Artificial Intelligence. Anda hanya perlu mengirimkan pesan ke bot WhatsApp ini untuk mendapatkan jawabannya.",
+    "short_description": "A WhatsApp bot integrated with AI",
+    "description": "FlatPee WhatsApp Bot is a WhatsApp bot integrated with Artificial Intelligence. Users can send a message to the bot and receive an immediate response.",
     "img": "/img/flatpee-bot.jpg",
     "link": "https://github.com/AisAif/flatpee-whatsapp-bot"
   },
   {
     "id": 8,
     "name": "Recipe Management - Rest API with Golang",
-    "short_description": "Aplikasi manajemen resep untuk berbagai pengguna",
-    "description": "Recipe Management merupakan aplikasi yang memudahkan pengguna untuk mengelola dan meng-expose resep mereka. Aplikasi ini dapat diakses secara online.",
+    "short_description": "A recipe management application for users",
+    "description": "Recipe Management is an application that enables users to manage and share their recipes online conveniently.",
     "img": "/img/recipe-management.png",
     "link": "https://github.com/AisAif/recipe-management-rest-api"
   }

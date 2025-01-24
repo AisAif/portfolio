@@ -1,35 +1,35 @@
 [
   {
     "id": 1,
-    "description": "Yok bermain gim sambil ngobrol bersama saya",
+    "description": "Let's play games and chat with me!",
     "img": "/img/discord.png",
     "value": "FlatPee#0356",
     "link": null
   },
   {
     "id": 2,
-    "description": "Tertarik dengan lelucon? Saya sering share post orang di sini",
+    "description": "Interested in jokes? I often share funny posts here.",
     "img": "/img/facebook.png",
     "value": "Abdullah Isbarul Fahmi",
     "link": "https://facebook.com/abdullahisbarulfahmi"
   },
   {
     "id": 3,
-    "description": "Follow Instagram saya",
+    "description": "Follow me on Instagram!",
     "img": "/img/instagram.png",
     "value": "ais_aif",
     "link": "https://instagram.com/ais_aif"
   },
   {
     "id": 4,
-    "description": "Ingin bekerja sama? Email ke sini",
+    "description": "Want to collaborate? Send me an email here.",
     "img": "/img/gmail.png",
     "value": "iam@ais-aif.my.id",
     "link": null
   },
   {
     "id": 5,
-    "description": "Temui proyek lain saya di sini",
+    "description": "Check out my other projects here.",
     "img": "/img/github.png",
     "value": "AisAif",
     "link": "https://github.com/AisAif"
