@@ -25,7 +25,7 @@
     "description": "Want to collaborate? Send me an email here.",
     "img": "/img/gmail.png",
     "value": "iam@ais-aif.my.id",
-    "link": null
+    "link": "mailto:iam@ais-aif.my.id"
   },
   {
     "id": 5,

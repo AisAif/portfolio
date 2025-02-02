@@ -62,5 +62,13 @@
     "description": "Recipe Management is an application that enables users to manage and share their recipes online conveniently.",
     "img": "/img/recipe-management.png",
     "link": "https://github.com/AisAif/recipe-management-rest-api"
+  },
+  {
+    "id": 9,
+    "name": "UMKM AI - Adonis + Rasa",
+    "short_description": "A Landing Page and Rasa Config Management Application",
+    "description": "UMKM AI is a landing page and Rasa config management application to manage their AI chatbot models. With UMKM AI, you can train your own AI chatbot models.",
+    "img": "/img/umkm-ai.png",
+    "link": "https://github.com/AisAif/umkm-ai"
   }
 ]

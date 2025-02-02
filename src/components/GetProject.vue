@@ -27,7 +27,7 @@ const projectIdOpen = ref();
   >
     <div
       class="flex flex-col w-fit shadow-xl dark:border-2 dark:border-accent-light rounded-lg"
-      v-for="project in projects"
+      v-for="project in projects.sort((a, b) => b.id - a.id)"
       :key="project.id"
     >
       <div class="w-full relative group cursor-pointer">
@@ -51,27 +51,28 @@ const projectIdOpen = ref();
       </div>
       <transition name="fade-size" mode="in-out">
         <div
-          class="absolute left-0 top-0 w-full h-full flex flex-col justify-center items-center backdrop-blur-sm z-50"
+          class="fixed left-0 top-0 w-screen h-screen flex flex-col justify-center items-center backdrop-blur-sm z-50"
           v-if="project.id == projectIdOpen"
+          @click="closeProject"
         >
           <div
-            class="relative flex flex-col justify-center items-center w-[340px] sm:w-[600px] rounded p-4 sm:p-8 bg-accent-dark dark:bg-accent-light text-slate-200"
+            class="relative flex flex-col justify-center items-center w-[340px] sm:w-[600px] max-h-screen rounded-xl p-4 sm:p-6 bg-accent-dark dark:bg-accent-light text-slate-200 overflow-auto"
+            @click.stop
           >
-            <button class="self-end">
-              <span @click="closeProject" class="material-symbols-outlined"
-                >close</span
-              >
-            </button>
-            <h1 class="text-xl sm:text-xl font-bold">{{ project.name }}</h1>
-            <p class="text-xs sm:text-base text-justify mt-6">
+            <img :src="project.img" class="w-full rounded-lg" />
+            <h1 class="text-xl sm:text-xl mt-6">{{ project.name }}</h1>
+            <p class="text-xs sm:text-base text-justify mt-4">
               {{ project.description }}
             </p>
-            <a
-              :href="project.link"
-              target="_blank"
-              class="bg-accent-light dark:bg-accent-dark hover:bg-secondary hover:text-accent-dark dark:hover:text-accent-light p-2 rounded mt-5"
-              >Hasil atau Source Code</a
-            >
+            <div class="flex gap-4 justify-between items-center w-full mt-8">
+              <a
+                :href="project.link"
+                target="_blank"
+                class="bg-accent-light dark:bg-accent-dark hover:bg-secondary hover:text-accent-dark dark:hover:text-accent-light p-2 rounded w-[75%] text-center"
+                >Result/Code</a
+              >
+              <button @click="closeProject" class="w-[25%] p-2 bg-white rounded text-slate-800">Close</button>
+            </div>
           </div>
         </div>
       </transition>
