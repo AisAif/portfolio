@@ -13,6 +13,7 @@ const timelines = await getTimelines();
   <div class="flex flex-col px-6 sm:px-10 md:px-20 sm:py-20 py-10">
     <div
       v-for="timeline in timelines"
+      :key="timeline.id"
       class="flex justify-between items-center w-full gap-2 relative pb-8 border-l-2 dark:border-accent-dark border-accent-light"
     >
       <span
@@ -24,6 +25,7 @@ const timelines = await getTimelines();
         <ul>
           <li
             v-for="act in timeline.activities"
+            :key="act.id"
             class="flex gap-2"
           >
             <span class="material-symbols-outlined text-xs"
@@ -36,3 +38,4 @@ const timelines = await getTimelines();
     </div>
   </div>
 </template>
+

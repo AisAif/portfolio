@@ -5,7 +5,7 @@
     "short_description": "A sharing platform for those in need around us",
     "description": "ByShare is a social movement on a digital platform designed to encourage the community to share kindness with those in need nearby.",
     "img": "/img/byshare.png",
-    "link": "https://byshare.site"
+    "link": "https://byshare.kastudio.tech/"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "short_description": "An educational platform for utilizing non-productive land",
     "description": "ZeroUp is an educational platform focused on teaching people how to utilize non-productive land around them. Users can learn how to start farming even in limited spaces.",
     "img": "/img/zeroup.png",
-    "link": "https://zeroup.byshare.site"
+    "link": "https://zeroup.kastudio.tech/"
   },
   {
     "id": 3,
@@ -37,7 +37,7 @@
     "short_description": "An application for managing donations, alms, and zakat for institutions",
     "description": "SIPZIS is an application designed to simplify the management of donations, alms, and zakat. Additionally, the public can easily donate to institutions through this platform.",
     "img": "/img/sipzis.png",
-    "link": "https://sipzis.com"
+    "link": "https://sipzis-ws.netlify.app/"
   },
   {
     "id": 6,
